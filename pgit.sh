@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "what is you want to add"
-read $ADD
+read "ADD"
 echo "what is your commant"
-read $COM
+read "COM"
 
 git add "$ADD" 
 git commit -m "$COM"
