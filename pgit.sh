@@ -1,9 +1,8 @@
 #!/bin/bash
-echo "what is you want to add"
-read "ADD"
-echo "what is your commant"
-read "COM"
 
-git add "$ADD" 
-git commit -m "$COM"
+
+git add "$1" 
+git commit -m "$2"
 git push
+
+echo "your push is then"

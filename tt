@@ -1,1 +1,5 @@
-jdf
+#!/bin/bash
+
+rida="rida"
+echo "${rida[0]}"
+"Script name: $0"
